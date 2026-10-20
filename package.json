@@ -1,0 +1,13 @@
+"build": {
+  "appId": "com.example.myapp",
+  "productName": "MyApp",
+  "files": [
+    "**/*",
+    "!.github/**",
+    "!dist/**",
+    "!**/*.md"
+  ],
+  "win": {
+    "target": "nsis"
+  }
+}
