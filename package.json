@@ -1,7 +1,7 @@
 {
   "name": "WasmEngine",
   "version": "1.0.0",
-  "main": "main.js",
+  "main": "Main.js",
   "scripts": {
     "build": "electron-builder --win --publish never"
   },
