@@ -1,13 +1,25 @@
-"build": {
-  "appId": "com.example.myapp",
-  "productName": "MyApp",
-  "files": [
-    "**/*",
-    "!.github/**",
-    "!dist/**",
-    "!**/*.md"
-  ],
-  "win": {
-    "target": "nsis"
+{
+  "name": "WasmEngine",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "build": "electron-builder --win --publish never"
+  },
+  "devDependencies": {
+    "electron": "^33.0.0",
+    "electron-builder": "^25.0.0"
+  },
+  "build": {
+    "appId": "com.55j.WasmEngine",
+    "productName": "WasmEngine",
+    "files": [
+      "**/*",
+      "!.github/**",
+      "!dist/**",
+      "!**/*.md"
+    ],
+    "win": {
+      "target": "nsis"
+    }
   }
 }
